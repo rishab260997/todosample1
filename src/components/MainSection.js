@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Footer from './Footer'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import VisibleTodoList from '../saga/VisibleTodoList'
 
 const MainSection = ({ todosCount, completedCount, actions }) =>
   (
